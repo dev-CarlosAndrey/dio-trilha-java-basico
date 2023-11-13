@@ -14,16 +14,13 @@ public class ContaTeminal {
         String agencia = scanner.next();
 
         System.out.println("Por favor agora digite seu nome: ");
-        String nome = scanner.nextLine();
-
-        // consuimndo a quebra de linha pendente
-        scanner.nextLine();
+        String nome = scanner.next();
 
         System.out.println("Por favor digite o seu saldo: ");
-        double sal = scanner.nextDouble();
+        double saldo = scanner.nextDouble();
 
         // imprindo os dados digitados pelo usuario
-        System.out.println("Olá " + nome + ", obrigado por criar uma conta em nosso banco. Sua agência é " + agencia + ", conta " + numero + " e seu saldo é " + sal + " e já está disponível para saque.");
+        System.out.println("Olá " + nome + ", obrigado por criar uma conta em nosso banco. Sua agência é " + agencia + ", conta " + numero + " e seu saldo é " + saldo + " e já está disponível para saque.");
 
     }
     
